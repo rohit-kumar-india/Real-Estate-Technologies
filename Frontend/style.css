@@ -1,0 +1,28 @@
+/* style.css */
+body {
+    padding-top: 20px;
+}
+
+#full-screen-image {
+    height: 100vh; /* Make the div cover the full viewport height */
+    background-image: url('home.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire div without stretching the image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+  }
+  
+
+
+
+
+footer {
+    background-color: #f8f9fa; /* Light grey background */
+    color: #212529; /* Dark grey text */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #e4e5e6; /* Light grey border */
+}
+
+footer p, footer h5 {
+    margin-bottom: 0;
+}
